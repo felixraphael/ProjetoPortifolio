@@ -1,0 +1,202 @@
+body{
+   background: whitesmoke;
+}
+
+.stray{
+    width:300px;
+    height: 245px;
+    transition: all .3s;
+    border-radius: 500%;
+    border:10px solid;
+    border-color: rgb(252, 252, 252);
+}
+
+.stray:hover{
+
+    border:10px solid;
+    border-color: rgb(150, 198, 227);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+li{
+    display: inline;
+    list-style: none;
+    width: 100%;
+    padding: 25px 25px;
+}
+
+.cor1{
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    transition: all .2s;
+    cursor:pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(222, 143, 209);
+   
+    border-radius: 100px;
+    font-family:Georgia;
+
+}
+.cor1:hover {
+    background: rgb(170, 62, 161);
+    border-radius: 100px;
+    color:rgb(255, 255, 255);
+}
+
+.cor{
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    transition: all .2s;
+    cursor:pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 205, 222);
+    border-radius: 100px;
+    font-family:Georgia;
+
+}
+.cor:hover {
+    
+    background: rgb(56, 102, 154);
+    border-radius: 100px;
+    color:rgb(255, 255, 255);
+}
+
+.cor2{
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    transition: all .2s;
+    cursor:pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(199, 228, 139);
+    border-radius: 100px;
+    font-family:Georgia;
+
+}
+.cor2:hover {
+    background: rgb(112, 183, 134);
+    border-radius: 100px;
+    color:rgb(255, 255, 255);
+}
+
+
+@media(max-width:600px) {
+    footer,.menu, a{
+       display: block;
+    }
+}
+
+ul{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    width: 90%;
+}
+
+span{
+    color:azure;
+}
+
+.cont{
+    display: block;
+}
+
+.raphael{
+    background-color: rgb(143, 205, 222);
+    width: 80%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+    border-radius: 100px;
+    text-align: center;
+}
+.hobbies{
+    background-color: rgb(222, 143, 209);
+    width: 80%;
+    padding-bottom: 15%;
+    margin-left: 10%;
+    border-radius: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.contato{
+    background-color: rgb(199, 228, 139);
+    width: 80%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.caixa{
+    width: 30%;
+    padding:8%;
+}
+
+b{
+    color: aliceblue;
+}
+
+input{
+    text-align:center;
+    border-radius: 10px;
+    width: 20%;
+    height: 20px;
+    border: 10px;
+    border-color: aliceblue solid;
+    background:rgb(143, 205, 222);
+}
+
+h1{
+    color: aliceblue;
+}
+.envia{
+    width:10%;
+    padding:20px;
+    background: rgb(143, 205, 222);
+    transition: all .2seg;
+    cursor: pointer;
+}
+.envia:hover{
+    background: rgb(40, 136, 162);
+}
+.item{
+background: aliceblue;
+width: 250px;
+margin-left: 20px;
+display:inline-block;
+border-radius: 10px;
+}
+.bg{
+    background-image: url(../img/bc.jpg);
+}
+
+footer{
+    text-align: center;
+    height: 100px;
+    background-image: url(../img/bc.jpg);
+}
+header{
+    display: block;
+}
+
+.header{
+    background: aliceblue;
+    border-radius: 50px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    font-size: 110%;
+    text-align: center;
+}
+@media(max-width:700px) {
+    .item, p, header{
+       display:inline-block;
+       background: aliceblue;
+       border-radius: 90px;
+
+    }
+}
